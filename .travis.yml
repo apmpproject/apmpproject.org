@@ -27,12 +27,11 @@ addons:
       
 before_script:
 
-jobs:
-  script:
+script:
   - find . -name '*.md' -print0 | xargs -0 mdcheckr
   - git diff master.. -U0 README.md | grep -Pos "(?<=^\+).*" >> temp.md || (exit 0)
-  - awesome_bot temp.md --allow-redirect || (exit 0)
   - node test.js temp.md
+  - awesome_bot temp.md --allow-redirect || (exit 0)
   - danger --verbose
 
 
