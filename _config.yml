@@ -1,6 +1,6 @@
-title: Welcome to the APMPProject!
-description: APMP Project
+title: APMP Project
+description: Welcome to the APMPProject!
 theme: jekyll-theme-hacker
-show_downloads: false
+show_downloads: true
 url: "apmpproject.org"
 permalink: pretty
