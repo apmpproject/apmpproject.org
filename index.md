@@ -32,6 +32,3 @@ PHP Version: 5.2.5
 Python Version: 2.3.5  
 Filezilla Version: 3.3.5  
   
-A demo will be coming soon and will be accessible  
-@ [http://demo.apmpproject.org:25020](http://demo.apmpproject.org:25020/)  
-you can read more by going to [the demo readme](http://apmpproject.org/demo)  
