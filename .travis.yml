@@ -8,9 +8,9 @@ before_install:
   - rvm install 2.2
   - gem install awesome_bot
   - gem install danger
-  - sudo apt-get update -qq 
+  - sudo apt-get update -qq
   - sudo apt-get install -y -qq lsb-release wget bash
-  - sudo wget https://github.com/mike42/mdcheckr/releases/download/v1.2/mdcheckr_1.2-1_all.deb 
+  - sudo wget https://github.com/mike42/mdcheckr/releases/download/v1.2/mdcheckr_1.2-1_all.deb
   - sudo dpkg -i mdcheckr_1.2-1_all.deb && sudo sudo apt-get -f install
 
 addons:
@@ -22,18 +22,17 @@ addons:
       - build-essential
       - lintian
       - debhelper
-      - git 
+      - git
       - wget
-      
+
 before_script:
 
 script:
   - find . -name '*.md' -print0 | xargs -0 mdcheckr
   - git diff master.. -U0 README.md | grep -Pos "(?<=^\+).*" >> temp.md || (exit 0)
   - node test.js temp.md
-  - awesome_bot temp.md --allow-redirect || (exit 0)
+  - awesome_bot temp.md --allow-redirect --set-timeout=3 || (exit 0)
   - danger --verbose
-
 
 notifications:
   email: false
