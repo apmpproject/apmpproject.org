@@ -26,16 +26,15 @@ addons:
       - wget
       
 before_script:
-  
-script:
+
+jobs:
+  script:
   - find . -name '*.md' -print0 | xargs -0 mdcheckr
   - git diff master.. -U0 README.md | grep -Pos "(?<=^\+).*" >> temp.md || (exit 0)
+  - awesome_bot temp.md --allow-redirect || (exit 0)
   - node test.js temp.md
   - danger --verbose
 
-jobs:
-  include:
-    - script: awesome_bot temp.md --allow-redirect || (exit 0)
 
 notifications:
   email: false
