@@ -17,7 +17,7 @@ software.
 In May 2000, Guido and the Python core development team moved to
 BeOpen.com to form the BeOpen PythonLabs team. In October of the same
 year, the PythonLabs team moved to Digital Creations (now Zope
-Corporation, see [http://www.zope.com](http://www.zope.com/)). In 2001, the Python Software
+Corporation, see [http://www.zope.org](http://www.zope.org/)). In 2001, the Python Software
 Foundation (PSF, see <http://www.python.org/psf/>) was formed, a
 non-profit organization created specifically to own Python-related
 Intellectual Property. Zope Corporation is a sponsoring member of
@@ -191,9 +191,7 @@ Agreement, Licensee may substitute the following text (omitting the
 quotes): “Python 1.6.1 is made available subject to the terms and
 conditions in CNRI’s License Agreement. This Agreement together with
 Python 1.6.1 may be located on the Internet using the following
-unique, persistent identifier (known as a handle): 1895.22/1013. This
-Agreement may also be obtained from a proxy server on the Internet
-using the following URL: http://hdl.handle.net/1895.22/1013”.
+unique, persistent identifier (known as a handle): 1895.22/1013.
 
 \3. In the event Licensee prepares a derivative work that is based on
 or incorporates Python 1.6.1 or any part thereof, and wants to make
