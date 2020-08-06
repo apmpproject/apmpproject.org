@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/casjay
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://apmpproject.org
+  * I am casjay (https://keybase.io/casjay) on keybase.
+  * I have a public key ASCQ8OVTOM-_O6RymzPbBUzzFJvI_0QasSmUI20jtn4H7Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bef71766e2ed9ebf52030154c3f14292ff04a506c723166188d3896070d0c5020a",
+      "host": "keybase.io",
+      "kid": "012090f0e55338cfbf3ba4729b33db054cf3149bc8ff441ab12994236d23b67e07ec0a",
+      "uid": "7e6362e006067364c73aea3200534100",
+      "username": "casjay"
+    },
+    "merkle_root": {
+      "ctime": 1537542959,
+      "hash": "dfc9ce49afe87b90b1e6e560a921f8e2af09f2d4d88c390c1b176ca0349488621c77b49c32dba9fcfe124c1e4ee2f9e2a2147d7dd7301bde2528a318edcd0f39",
+      "hash_meta": "e5c7385db11d015597426210acd60801f58f5e506d88949030407a6597c57ee8",
+      "seqno": 3643044
+    },
+    "service": {
+      "entropy": "pWQ744jRnlcTBk5dPx4CuSIJ",
+      "hostname": "apmpproject.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1537543050,
+  "expire_in": 504576000,
+  "prev": "505c50a2c20fb7a9cef0105a96ae21a23be3dbf60ca6c4ebfaf3582171fd441f",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkPDlUzjPvzukcpsz2wVM8xSbyP9EGrEplCNtI7Z+B+wKp3BheWxvYWTESpcCHsQgUFxQosIPt6nO8BBalq4hojvj2/YMpsTr+vNYIXH9RB/EIAkvpaAcsMl4/Iqd1M2rGzfsz975WEGqUCkApiP3Y2vmAgHCo3NpZ8RA+HNhIrcbtC1kS4e9UILw5KuweO4iHcrVQFpebv6QQEqrhHMxhgiiy25/kGVhcUYDSnvI+SYAvJ8dtCTY407aDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOYYd/3NXyJVTcxZH2vXcD3FHYNs6TDlwCrTEOLiD1BZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/casjay
+
+==================================================================
